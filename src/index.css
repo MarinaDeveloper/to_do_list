@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 40px 0;
+
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+
+  background-color: #E1C4B6;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0 0 10px 0;
+}

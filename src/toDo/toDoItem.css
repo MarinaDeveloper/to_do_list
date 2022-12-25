@@ -1,0 +1,60 @@
+.todo-item {
+    display: flex;
+    margin-bottom: 17px;
+    align-items: center;
+}
+
+.checkbox {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+}
+
+.description {
+    border: none;
+    border-bottom: 1px solid #767676;
+    
+    width: 635px;
+    height: 35px;
+    min-height: 35px;
+    max-height: 100px;
+
+    padding-left: 10px;
+    resize: vertical;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.description:hover {
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.description:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.close {
+    margin-left: 15px;
+    padding: 0;
+
+    width: 20px;
+    height: 20px;
+
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.close img {
+    vertical-align: middle;
+    width: 70%;
+}
